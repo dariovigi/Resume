@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" saveDateTime="2024-05-14T12:33:44" saveUserFull="DARIO VIGILANTE" saveUser="0056950" version="3.34.4-Prizren">
+<qgis projectname="" saveDateTime="2024-05-14T12:52:57" saveUserFull="DARIO VIGILANTE" saveUser="0056950" version="3.34.4-Prizren">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -23141,6 +23141,7 @@ control = dialog.findChild(QWidget, "MyLineEdit")
       </wgs84extent>
       <id>pali_1e6ec426_96ae_4383_be71_c5eebb82b160</id>
       <datasource>dbname='vds' host=172.30.37.240 port=5432 user='postgres' password='vds' key='tid' srid=4326 type=Point checkPrimaryKeyUnicity='1' table="public"."pali" (geom)</datasource>
+      <shortname>pali</shortname>
       <keywordList>
         <value></value>
       </keywordList>
@@ -23213,7 +23214,7 @@ control = dialog.findChild(QWidget, "MyLineEdit")
       <metadataUrls/>
       <renderer-3d type="rulebased" layer="pali_1e6ec426_96ae_4383_be71_c5eebb82b160">
         <vector-layer-3d-tiling zoom-levels-count="3" show-bounding-boxes="0"/>
-        <rules key="{87601b75-d57b-4866-afcd-247cf9819a5f}"/>
+        <rules key="{8426d1c2-1844-4039-a041-b8188af7d93d}"/>
       </renderer-3d>
       <flags>
         <Identifiable>1</Identifiable>
@@ -23832,8 +23833,8 @@ control = dialog.findChild(QWidget, "MyLineEdit")
         </selectionSymbol>
       </selection>
       <labeling type="rule-based">
-        <rules key="{0da6eb0b-1793-4d11-8ec4-70b694ba0e21}">
-          <rule active="0" scalemindenom="100" scalemaxdenom="100" key="{d954ee40-a207-454a-9b99-ce275524c486}">
+        <rules key="{4ad9b610-92bd-4c37-bc69-544d40eb473c}">
+          <rule active="0" scalemindenom="100" scalemaxdenom="100" key="{d6399b24-100d-4e36-85f4-161fb7bcf54a}">
             <settings calloutType="simple">
               <text-style fontFamily="Open Sans" forcedBold="0" namedStyle="Regular" fontKerning="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fieldName=" concat(&quot;Ubicazione&quot;)" fontWordSpacing="0" textColor="50,50,50,255" blendMode="0" fontSize="10" textOrientation="horizontal" useSubstitutions="0" fontLetterSpacing="0" legendString="Aa" multilineHeightUnit="Percentage" textOpacity="1" fontWeight="50" multilineHeight="1" capitalization="0" fontUnderline="0" fontStrikeout="0" previewBkgrdColor="255,255,255,255" allowHtml="0" forcedItalic="0" fontItalic="0" fontSizeUnit="Point" isExpression="1">
                 <families/>
@@ -23957,7 +23958,7 @@ control = dialog.findChild(QWidget, "MyLineEdit")
               </callout>
             </settings>
           </rule>
-          <rule key="{e3f07b99-6a19-4901-b528-a7327466207e}">
+          <rule key="{743a95e6-b5b6-4efb-b7dd-5a48deab10e8}">
             <settings calloutType="simple">
               <text-style fontFamily="Open Sans" forcedBold="0" namedStyle="Regular" fontKerning="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fieldName="nome" fontWordSpacing="0" textColor="50,50,50,255" blendMode="0" fontSize="7.5" textOrientation="horizontal" useSubstitutions="0" fontLetterSpacing="0" legendString="Aa" multilineHeightUnit="Percentage" textOpacity="1" fontWeight="50" multilineHeight="1" capitalization="0" fontUnderline="0" fontStrikeout="0" previewBkgrdColor="255,255,255,255" allowHtml="0" forcedItalic="0" fontItalic="0" fontSizeUnit="Point" isExpression="0">
                 <families/>
@@ -24089,8 +24090,8 @@ control = dialog.findChild(QWidget, "MyLineEdit")
             <Option type="QString" value="&quot;Ubicazione&quot;"/>
           </Option>
           <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -27267,9 +27268,11 @@ control = dialog.findChild(QWidget, "MyLineEdit")
       </wgs84extent>
       <id>telecamere_4369e147_be10_4c50_a153_5da6d148e52c</id>
       <datasource>dbname='vds' host=172.30.37.240 port=5432 user='postgres' password='vds' sslmode=disable key='id_telecamera' srid=4326 type=Point checkPrimaryKeyUnicity='1' table="public"."telecamere" (geom)</datasource>
+      <shortname>telecamere</shortname>
       <keywordList>
         <value></value>
       </keywordList>
+      <legendUrl format="">Telecamere</legendUrl>
       <layername>telecamere</layername>
       <srs>
         <spatialrefsys nativeFormat="Wkt">
@@ -27339,8 +27342,8 @@ control = dialog.findChild(QWidget, "MyLineEdit")
       <metadataUrls/>
       <renderer-3d type="rulebased" layer="telecamere_4369e147_be10_4c50_a153_5da6d148e52c">
         <vector-layer-3d-tiling zoom-levels-count="3" show-bounding-boxes="0"/>
-        <rules key="{b407d5aa-2052-4e9c-818c-c2577b02530d}">
-          <rule key="{323b2aed-621f-4736-9754-f15f2fecded5}">
+        <rules key="{b5db7fd7-231c-48b1-b3a7-aea3660a0bbe}">
+          <rule key="{ba70c826-9c55-44f4-9283-584bc1d2c817}">
             <symbol type="point" material_type="gooch" shape="model">
               <data alt-clamping="terrain"/>
               <material cool="255,130,0,255" beta="0.5" alpha="0.25" warm="107,0,107,255" specular="0,0,0,255" shininess2="100" diffuse="178,178,178,255">
@@ -28296,8 +28299,8 @@ control = dialog.findChild(QWidget, "MyLineEdit")
         </selectionSymbol>
       </selection>
       <labeling type="rule-based">
-        <rules key="{ce1ce967-cb3a-49b8-ac6e-23352cd33b05}">
-          <rule active="0" scalemindenom="100" scalemaxdenom="100" key="{14c615cb-5435-4a56-994a-6ebb21861abc}">
+        <rules key="{0c309bd6-90be-49a1-8552-e985ad68c3b6}">
+          <rule active="0" scalemindenom="100" scalemaxdenom="100" key="{4f7b176c-d9f5-462a-a564-c6d9de921e87}">
             <settings calloutType="simple">
               <text-style fontFamily="Open Sans" forcedBold="0" namedStyle="Regular" fontKerning="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fieldName=" concat(&quot;Ubicazione&quot;)" fontWordSpacing="0" textColor="50,50,50,255" blendMode="0" fontSize="10" textOrientation="horizontal" useSubstitutions="0" fontLetterSpacing="0" legendString="Aa" multilineHeightUnit="Percentage" textOpacity="1" fontWeight="50" multilineHeight="1" capitalization="0" fontUnderline="0" fontStrikeout="0" previewBkgrdColor="255,255,255,255" allowHtml="0" forcedItalic="0" fontItalic="0" fontSizeUnit="Point" isExpression="1">
                 <families/>
@@ -28421,7 +28424,7 @@ control = dialog.findChild(QWidget, "MyLineEdit")
               </callout>
             </settings>
           </rule>
-          <rule active="0" key="{627ea2c3-28e1-4ea5-b72c-c6878d265a81}">
+          <rule active="0" key="{ccb5f747-092a-45da-91dd-4ab1561d88b3}">
             <settings calloutType="simple">
               <text-style fontFamily="Open Sans" forcedBold="0" namedStyle="Regular" fontKerning="1" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fieldName="Name" fontWordSpacing="0" textColor="50,50,50,255" blendMode="0" fontSize="7.5" textOrientation="horizontal" useSubstitutions="0" fontLetterSpacing="0" legendString="Aa" multilineHeightUnit="Percentage" textOpacity="1" fontWeight="50" multilineHeight="1" capitalization="0" fontUnderline="0" fontStrikeout="0" previewBkgrdColor="255,255,255,255" allowHtml="0" forcedItalic="0" fontItalic="0" fontSizeUnit="Point" isExpression="0">
                 <families/>
@@ -28553,8 +28556,8 @@ control = dialog.findChild(QWidget, "MyLineEdit")
             <Option type="QString" value="&quot;Ubicazione&quot;"/>
           </Option>
           <Option type="int" name="embeddedWidgets/count" value="0"/>
-          <Option type="invalid" name="variableNames"/>
-          <Option type="invalid" name="variableValues"/>
+          <Option name="variableNames"/>
+          <Option name="variableValues"/>
         </Option>
       </customproperties>
       <blendMode>0</blendMode>
@@ -29298,7 +29301,7 @@ control = dialog.findChild(QWidget, "MyLineEdit")
             <labelFont style="" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" underline="0" strikethrough="0" bold="0"/>
           </labelStyle>
         </attributeEditorField>
-        <attributeEditorAction name="{00000000-0000-0000-0000-000000000000}" horizontalStretch="0" verticalStretch="0" showLabel="1" ActionUUID="{d6c07059-38d3-43ce-ad1b-19e115668b4c}">
+        <attributeEditorAction name="{d6c07059-38d3-43ce-ad1b-19e115668b4c}" horizontalStretch="0" verticalStretch="0" showLabel="1" ActionUUID="{d6c07059-38d3-43ce-ad1b-19e115668b4c}">
           <labelStyle labelColor="0,0,0,255" overrideLabelFont="0" overrideLabelColor="0">
             <labelFont style="" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0" italic="0" underline="0" strikethrough="0" bold="0"/>
           </labelStyle>
@@ -29831,7 +29834,7 @@ control = dialog.findChild(QWidget, "MyLineEdit")
     <WMSAddLayerGroupsLegendGraphic type="bool">false</WMSAddLayerGroupsLegendGraphic>
     <WMSAddWktGeometry type="bool">false</WMSAddWktGeometry>
     <WMSContactMail type="QString"></WMSContactMail>
-    <WMSContactOrganization type="QString"></WMSContactOrganization>
+    <WMSContactOrganization type="QString">Comune di Napoli</WMSContactOrganization>
     <WMSContactPerson type="QString"></WMSContactPerson>
     <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSContactPosition type="QString"></WMSContactPosition>
@@ -29851,11 +29854,11 @@ control = dialog.findChild(QWidget, "MyLineEdit")
     <WMSMaxAtlasFeatures type="int">1</WMSMaxAtlasFeatures>
     <WMSOnlineResource type="QString"></WMSOnlineResource>
     <WMSPrecision type="QString">8</WMSPrecision>
-    <WMSRootName type="QString"></WMSRootName>
+    <WMSRootName type="QString">VideosorveglianzaCDN</WMSRootName>
     <WMSSegmentizeFeatureInfoGeometry type="bool">false</WMSSegmentizeFeatureInfoGeometry>
     <WMSServiceAbstract type="QString"></WMSServiceAbstract>
-    <WMSServiceCapabilities type="bool">false</WMSServiceCapabilities>
-    <WMSServiceTitle type="QString"></WMSServiceTitle>
+    <WMSServiceCapabilities type="bool">true</WMSServiceCapabilities>
+    <WMSServiceTitle type="QString">Videosorveglianza CDN</WMSServiceTitle>
     <WMSTileBuffer type="int">0</WMSTileBuffer>
     <WMSUrl type="QString"></WMSUrl>
     <WMSUseLayerIDs type="bool">false</WMSUseLayerIDs>
@@ -32016,7 +32019,7 @@ control = dialog.findChild(QWidget, "MyLineEdit")
       </spatialrefsys>
     </CoordinateCustomCrs>
   </ProjectDisplaySettings>
-  <ProjectGpsSettings destinationLayerProvider="postgres" destinationLayer="Quartieri___Napoli_2001_50b92a58_47d1_4a06_92f3_108642cd69ca" autoAddTrackVertices="0" destinationLayerName="Quartieri - Napoli 2001" autoCommitFeatures="0" destinationLayerSource="dbname='vds' host=172.30.37.240 port=5432 user='postgres' sslmode=disable key='id' srid=32633 type=MultiPolygon checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;Quartieri - Napoli 2001&quot; (geom)" destinationFollowsActiveLayer="1">
+  <ProjectGpsSettings destinationLayerProvider="postgres" destinationLayer="pali_1e6ec426_96ae_4383_be71_c5eebb82b160" autoAddTrackVertices="0" destinationLayerName="pali" autoCommitFeatures="0" destinationLayerSource="dbname='vds' host=172.30.37.240 port=5432 user='postgres' key='tid' srid=4326 type=Point checkPrimaryKeyUnicity='1' table=&quot;public&quot;.&quot;pali&quot; (geom)" destinationFollowsActiveLayer="1">
     <timeStampFields/>
   </ProjectGpsSettings>
 </qgis>
