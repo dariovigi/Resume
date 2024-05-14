@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" saveDateTime="2024-05-14T12:30:29" saveUserFull="DARIO VIGILANTE" saveUser="0056950" version="3.34.4-Prizren">
+<qgis projectname="" saveDateTime="2024-05-14T12:33:44" saveUserFull="DARIO VIGILANTE" saveUser="0056950" version="3.34.4-Prizren">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -236,10 +236,10 @@
   <mapcanvas name="theMapCanvas" annotationsVisible="1">
     <units>degrees</units>
     <extent>
-      <xmin>14.22053384329540471</xmin>
-      <ymin>40.84840015285651305</ymin>
-      <xmax>14.28716638481332701</xmax>
-      <ymax>40.8859459655678279</ymax>
+      <xmin>14.12017744936093955</xmin>
+      <ymin>40.79217112108233323</ymin>
+      <xmax>14.37415117318066571</xmax>
+      <ymax>40.93527912283195747</ymax>
     </extent>
     <rotation>0</rotation>
     <destinationsrs>
@@ -29836,6 +29836,12 @@ control = dialog.findChild(QWidget, "MyLineEdit")
     <WMSContactPhone type="QString"></WMSContactPhone>
     <WMSContactPosition type="QString"></WMSContactPosition>
     <WMSDefaultMapUnitsPerMm type="double">1</WMSDefaultMapUnitsPerMm>
+    <WMSExtent type="QStringList">
+      <value>14.12017744899999983</value>
+      <value>40.77590345200000144</value>
+      <value>14.37415117299999956</value>
+      <value>40.95154679200000203</value>
+    </WMSExtent>
     <WMSFeatureInfoUseAttributeFormSettings type="bool">false</WMSFeatureInfoUseAttributeFormSettings>
     <WMSFees type="QString">conditions unknown</WMSFees>
     <WMSImageQuality type="int">90</WMSImageQuality>
@@ -31945,7 +31951,7 @@ control = dialog.findChild(QWidget, "MyLineEdit")
       <Scale Value="4231"/>
       <Scale Value="2115"/>
     </Scales>
-    <DefaultViewExtent ymax="40.91149829739243415" xmax="14.36873615109673175" ymin="40.79257907755670232" xmin="14.13754536967695508">
+    <DefaultViewExtent ymax="40.95154679192058467" xmax="14.37415117318066571" ymin="40.77590345199370603" xmin="14.12017744936093955">
       <spatialrefsys nativeFormat="Wkt">
         <wkt>GEOGCRS["WGS 84",ENSEMBLE["World Geodetic System 1984 ensemble",MEMBER["World Geodetic System 1984 (Transit)"],MEMBER["World Geodetic System 1984 (G730)"],MEMBER["World Geodetic System 1984 (G873)"],MEMBER["World Geodetic System 1984 (G1150)"],MEMBER["World Geodetic System 1984 (G1674)"],MEMBER["World Geodetic System 1984 (G1762)"],MEMBER["World Geodetic System 1984 (G2139)"],ELLIPSOID["WGS 84",6378137,298.257223563,LENGTHUNIT["metre",1]],ENSEMBLEACCURACY[2.0]],PRIMEM["Greenwich",0,ANGLEUNIT["degree",0.0174532925199433]],CS[ellipsoidal,2],AXIS["geodetic latitude (Lat)",north,ORDER[1],ANGLEUNIT["degree",0.0174532925199433]],AXIS["geodetic longitude (Lon)",east,ORDER[2],ANGLEUNIT["degree",0.0174532925199433]],USAGE[SCOPE["Horizontal component of 3D system."],AREA["World."],BBOX[-90,-180,90,180]],ID["EPSG",4326]]</wkt>
         <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
