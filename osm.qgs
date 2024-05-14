@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" saveDateTime="2024-05-14T13:01:11" saveUserFull="DARIO VIGILANTE" saveUser="0056950" version="3.34.4-Prizren">
+<qgis projectname="" saveDateTime="2024-05-14T14:19:02" saveUserFull="DARIO VIGILANTE" saveUser="0056950" version="3.34.4-Prizren">
   <homePath path=""/>
   <title></title>
   <transaction mode="Disabled"/>
@@ -29823,7 +29823,18 @@ control = dialog.findChild(QWidget, "MyLineEdit")
     </SpatialRefSys>
     <WCSLayers type="QStringList"/>
     <WCSUrl type="QString"></WCSUrl>
-    <WFSLayers type="QStringList"/>
+    <WFSLayers type="QStringList">
+      <value>Municipalit____Napoli_9fe96e29_2ab2_43e6_a3ed_036634c7b67a</value>
+      <value>Quartieri___Napoli_2001_50b92a58_47d1_4a06_92f3_108642cd69ca</value>
+      <value>pali_1e6ec426_96ae_4383_be71_c5eebb82b160</value>
+      <value>telecamere_4369e147_be10_4c50_a153_5da6d148e52c</value>
+    </WFSLayers>
+    <WFSLayersPrecision>
+      <Municipalit____Napoli_9fe96e29_2ab2_43e6_a3ed_036634c7b67a type="int">8</Municipalit____Napoli_9fe96e29_2ab2_43e6_a3ed_036634c7b67a>
+      <Quartieri___Napoli_2001_50b92a58_47d1_4a06_92f3_108642cd69ca type="int">8</Quartieri___Napoli_2001_50b92a58_47d1_4a06_92f3_108642cd69ca>
+      <pali_1e6ec426_96ae_4383_be71_c5eebb82b160 type="int">8</pali_1e6ec426_96ae_4383_be71_c5eebb82b160>
+      <telecamere_4369e147_be10_4c50_a153_5da6d148e52c type="int">8</telecamere_4369e147_be10_4c50_a153_5da6d148e52c>
+    </WFSLayersPrecision>
     <WFSTLayers>
       <Delete type="QStringList"/>
       <Insert type="QStringList"/>
@@ -29868,18 +29879,39 @@ control = dialog.findChild(QWidget, "MyLineEdit")
     </WMTSGrids>
     <WMTSJpegLayers>
       <Group type="QStringList"/>
-      <Layer type="QStringList"/>
+      <Layer type="QStringList">
+        <value>telecamere_4369e147_be10_4c50_a153_5da6d148e52c</value>
+        <value>Quartieri___Napoli_2001_50b92a58_47d1_4a06_92f3_108642cd69ca</value>
+        <value>pali_1e6ec426_96ae_4383_be71_c5eebb82b160</value>
+        <value>OpenStreetMap_84e92e3d_2f23_42cf_96ac_28529e3b5f36</value>
+        <value>Municipalit____Napoli_9fe96e29_2ab2_43e6_a3ed_036634c7b67a</value>
+        <value>Bing_VirtualEarth_e16a24e3_77bc_4059_a1fa_d132090e3d48</value>
+      </Layer>
       <Project type="bool">false</Project>
     </WMTSJpegLayers>
     <WMTSLayers>
       <Group type="QStringList"/>
-      <Layer type="QStringList"/>
+      <Layer type="QStringList">
+        <value>telecamere_4369e147_be10_4c50_a153_5da6d148e52c</value>
+        <value>Quartieri___Napoli_2001_50b92a58_47d1_4a06_92f3_108642cd69ca</value>
+        <value>pali_1e6ec426_96ae_4383_be71_c5eebb82b160</value>
+        <value>OpenStreetMap_84e92e3d_2f23_42cf_96ac_28529e3b5f36</value>
+        <value>Municipalit____Napoli_9fe96e29_2ab2_43e6_a3ed_036634c7b67a</value>
+        <value>Bing_VirtualEarth_e16a24e3_77bc_4059_a1fa_d132090e3d48</value>
+      </Layer>
       <Project type="bool">false</Project>
     </WMTSLayers>
     <WMTSMinScale type="int">5000</WMTSMinScale>
     <WMTSPngLayers>
       <Group type="QStringList"/>
-      <Layer type="QStringList"/>
+      <Layer type="QStringList">
+        <value>telecamere_4369e147_be10_4c50_a153_5da6d148e52c</value>
+        <value>Quartieri___Napoli_2001_50b92a58_47d1_4a06_92f3_108642cd69ca</value>
+        <value>pali_1e6ec426_96ae_4383_be71_c5eebb82b160</value>
+        <value>OpenStreetMap_84e92e3d_2f23_42cf_96ac_28529e3b5f36</value>
+        <value>Municipalit____Napoli_9fe96e29_2ab2_43e6_a3ed_036634c7b67a</value>
+        <value>Bing_VirtualEarth_e16a24e3_77bc_4059_a1fa_d132090e3d48</value>
+      </Layer>
       <Project type="bool">false</Project>
     </WMTSPngLayers>
     <WMTSUrl type="QString"></WMTSUrl>
